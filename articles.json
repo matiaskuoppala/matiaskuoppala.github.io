@@ -1,0 +1,24 @@
+{ "articles": [
+
+        {
+            "title": "Maailman ympäristöystävällisin jäänmurtaja Polaris aloittaa matkansa Katajanokalta",
+            "text": "Maailman ensimmäinen LNG-jäänmurtaja Polaris lähtee jäänmurtotyöhön maanantaina iltapäivällä Helsingistä.Se on maailman ensimmäinen jäänmurtaja, joka voi käyttää polttoaineenaan sekä nesteytettyä maakaasua eli LNG:tä (Liquefied Natural Gas), että ultravähärikkistä dieseliä. Tämä vähentää merkittävästi niin hiilidioksidi- kuin muitakin päästöjä.Arctian mukaan Polaris onkin maailman ympäristöystävällisin diesel-sähköinen jäänmurtaja. Polaris on noin myös Suomen tehokkain jäänmurtaja.",
+            "date": "9.1."
+            },
+        {
+            "title": "Hallitus myönsi Viron ja Suomen maakaasuputkelle lisärahaa 28 miljoonaa euroa",
+            "text": "Valtio antaa lisää rahaa Suomen ja Viron välisen kaasuputken rakentamiseen. Hallituksen talouspoliittinen ministerivaliokunta päätti tiistaina antaa budjettirahaa hankkeelle 28 miljoonaa euroa. Raha sisällytetään tämän vuoden kolmanteen lisätalousarvioon. Elinkeinoministeri Olli Rehn (kesk) sanoi tiedotustilaisuudessa, että summa menee pääomituksena Balticconnector Oy:lle, joka on valtion omistama Suomen puolelta hanketta hoitava yhtiö. Viron valtiolla on vastaava yritys. ”Määräraha antaa Balticconnectorin hallitukselle edellytykset tehdä investointipäätös Suomen puolelta”, Rehn sanoi.",
+            "date": "13.9."
+            },
+
+
+        {
+            "title": "Suomeen saatiin ensi kertaa nesteytettyä maakaasua meriteitse – ”Uusi aikakausi on alkanut”",
+            "text": "Pori. Kolmen vuoden odotus päättyi varhain sunnuntaiaamuna Tahkoluodon satamassa Porissa.Syväväylän horisonttiin ilmestyi säiliöalus Coral Energy, jonka kaasuyhtiö Gasum on vuokrannut käyttöönsä nesteytetyn maakaasun kuljettamista varten. Gasumin toimitusjohtaja Johanna Lamminen on riemuissaan. Hän heräsi sunnuntaina kello 3.30 Helsingissä ollakseen neljä tuntia myöhemmin Porissa vastaanottamassa Suomen ensimmäistä nesteytetyn maakaasun merikuljetusta. ”Onhan tämä valtavan hienoa, että Suomeen saadaan viimein nesteytettyä maakaasua meriteitse. Tulevaisuudessa kaasulla voidaan korvata yhä enemmän öljypohjaisia polttoaineita”, Lamminen sanoo. Täsmällisemmin sanottuna säiliöaluksen on vuokrannut Skangas, josta Gasum omistaa 51 prosenttia ja norjalainen energiayhtiö Lyse Energi 49 prosenttia. Lamminen on Skangasin hallituksen puheenjohtaja.",
+            "date": "10.7."
+            }
+
+
+        ]
+
+}
