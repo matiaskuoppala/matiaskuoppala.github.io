@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset"UTF-8" />
+    <title>Make maakaasu great again!</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta user-scalable=yes>
+    
+    <script>
+    var shiftWindow = function() { scrollBy(0, -65) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+    </script>
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32">
+    <meta name="theme-color" content="#ffffff">
+    <meta name=”viewport” content=”initial-scale" = 1">
+</head>
+
+<body onload="load()">
+    <nav class="navigation">
+        
+        <li><a href="#campaign-info">Kampanja</a></li>
+        <li><a href="#current">Ajankohtaista</a></li>
+        <li><a href="#gas-info">Tietoa Maakaasusta</a></li>
+        <li><a href="#store">Kauppa</a></li>
+    </nav>
+    
+    <div class="wrapper">
+    
+    <div id="share-button-container">
+        <!-- Google+ -->
+        <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank" class="share-button">
+            <img src="google.png" alt="Google" />
+        </a>
+    
+           <!-- Facebook -->
+        <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank" class="share-button">
+            <img src="facebook.png" alt="Facebook" />
+        </a>
+    
+        <!-- Reddit -->
+        <a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank" class="share-button">
+            <img src="reddit.png" alt="Reddit" />
+        </a>
+       
+        <!-- Tumblr-->
+        <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank" class="share-button">
+            <img src="tumblr.png" alt="Tumblr" />
+        </a>
+     
+        <!-- Twitter -->
+        <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank" class="share-button">
+            <img src="twitter.png" alt="Twitter" />
+        </a>
+    </div>
+
+    <h1 id="header">Make Maakaasu Great Again!</h1>
+    
+    <div class="resize-content">
+    <div id="campaign-info"></div>
+    <section>
+    <article class="article" >
+        <h2>Kampanja</h2>
+        Regione patrioque his et, homero aperiam inciderint ei vis, nonumy persecuti cotidieque no vix. Ea cum postea ponderum deterruisset, te suas partiendo his, mea no persius docendi. Ut possim appareat sed, vel ne mazim debet oblique, usu saepe oratio quaestio in. An mollis vituperatoribus sit. An odio erant feugiat vis, nonumy scribentur vis ne.
+        <h3>Lorem ipsum</h3>
+        <p>Autem animal his no, id quidam oblique comprehensam pro, tale decore lucilius cu vis. Te cum erat iisque, at vix tritani consulatu theophrastus. Quo mucius civibus cu, id mel munere aeterno. Has ut tation noster, mel cu paulo iudicabit. Errem praesent euripidis qui id, ei nulla consulatu sit. Pro epicuri quaestio vulputate te, nec ut delicata dissentias. At sit affert iudicabit.
+        
+        Ius te volumus assentior gloriatur, id vim purto verear impedit. An atqui omnes homero mel, sale accusata delicata vis eu. Duo ut atqui liberavisse concludaturque. Mea minimum comprehensam necessitatibus at, modo labore nam in, iusto liberavisse sit an. Et possit appellantur mel, duo no insolens nominati principes, latine insolens te ius. Pri noluisse sapientem eu, semper equidem no usu. An usu inermis assueverit, agam singulis.</p>
+        
+        <video width="640" height="360" poster="video_thumbnail.PNG" controls>
+	<source src="Maakaasu_720p.MP4"  type="video/mp4" />
+	<source src="Maakaasu_720p.OGV"  type="video/ogg" />
+            No video playback capabilities, please download the video below
+            <p>	<strong>Lataa Video:</strong>
+            <a href="Maakaasu_720p.MP4">"MP4"</a>
+            <a href="Maakaasu_720p.OGV">"Ogg"</a>
+            </p>
+        </video>
+        
+    </article>
+        
+    <article class="article" id="current">
+    <h2>Ajankohtaista</h2>
+    <p>Vel velit dicit ornatus ex, per cu inani mandamus comprehensam. Eu vel saepe iudico audiam. Purto wisi habeo qui in, mea et amet scriptorem. Eligendi moderatius interesset ea pri, et eos dicunt molestiae. Et est vocibus argumentum reprimique.
+    </p>
+    <h2>Uutisia</h2>
+    <div id="news-container">
+    <div id="news-buttons">
+    <button class="news-button" id="previous" onclick="previous()"></button>
+    <button class="news-button" id= "play-pause" onclick="playToggle()"></button>
+    <button class="news-button" id="next" onclick="next()" ></button>
+    </div>
+        <div id="article1">
+            <h3 id="title1"></h3>
+            <p id="news1"></p>
+        </div>
+        <div id="article2">
+            <h3 id="title2"></h3>
+            <p id="news2"></p>
+        </div>
+        <div id="article3">
+            <h3 id="title3"></h3>
+            <p id="news3"></p>
+        </div>
+    </div>
+    </article>
+    
+    <article class="article" id="gas-info">
+    <h2>Maakaasu energianl&auml;hteen&auml;</h2>
+        
+    <p>
+    Maakaasun tunnustetaan olevan puhtain energial&auml;hde kaikista fossiilisista polttoaineista. Esimerkiksi kivihiilt&auml; poltettaessa syntyy hiilidioksidip&auml;&auml;st&ouml;j&auml; noin 40% enemm&auml;n kuin maakaasua poltettaessa. Suomessa k&auml;ytett&auml;v&auml; maakaasu on p&auml;&auml;osin pelkk&auml;&auml; metaania (CH4), jonka poltosta ei siksi vapaudu l&auml;hes ollenkaan esimerkiksi rikkipitoisia kaasuja, jotka sadeveden mukana tulevat maan pinnalle ja vesist&ouml;ihin, ja aiheuttavat luonnolle haitallista happamoitumista.
+        
+    Suomen energiantuotanosta noin 8% tulee maakaasusta ja t&auml;st&auml; suurin osa k&auml;ytet&auml;&auml;n varsinkin Helsingin seudun asuntojen l&auml;mmityksest&auml;. Tuomme Ven&auml;j&auml;lt&auml; maakaasun Suomeen, sill&auml; Suomella ei ole omia maakaasuvaroja. Meill&auml; on my&ouml;s pitk&auml;aikainen maakaasun tuontisopimus Ven&auml;j&auml;n kanssa.
+    </p>
+        
+    <p id="lol">
+        
+    </p>
+    </article>
+          
+        <article id="store" class="article">
+        <h2>Kauppa</h2>
+        <p id="store-description">Coming soon!</p>
+        <div id="lippis"><img  src="Lippis.png"/ width="400px"></div>
+        </article>
+    </section>
+    </div>  
+    </div>
+    
+    <script src="slideshow.js"></script>
+    
+    
+    <div id="footer-container">
+            <footer id="footer">
+                <h2>Gasum</h2>
+                <p id="copyright">
+                Copyright 2017 Gasum 
+                </p>
+                <p id="mail">campaign@gasum.fi</p>
+                <a href=#header >Takaisin yl&ouml;s</a>
+            </footer>
+    </div>
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="slideshow.js"></script>
+</body>
+</html>
