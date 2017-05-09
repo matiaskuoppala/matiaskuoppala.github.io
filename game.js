@@ -44,7 +44,7 @@
         fill: "#000000",
         align: "center"
     });
-        game.add.text(game.camera.x + 210, 213, "Refresh page to try again", {
+        game.add.text(game.camera.x + 250, 213, "Refresh page to try again", {
         font: "25px Arial",
         fill: "#000000",
         align: "center"
