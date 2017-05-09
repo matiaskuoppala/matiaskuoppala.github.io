@@ -39,8 +39,13 @@
     // Game over function
     function gameOver() {
         player.kill();
-        game.add.text(game.camera.x + 230, 143, "Game Over!", {
+        game.add.text(game.camera.x + 220, 143, "Game Over!", {
         font: "65px Arial",
+        fill: "#000000",
+        align: "center"
+    });
+        game.add.text(game.camera.x + 220, 173, "Refresh page to try again", {
+        font: "25px Arial",
         fill: "#000000",
         align: "center"
     });
